@@ -6,7 +6,7 @@ public class SalesManager {
         this.sales = sales;
     }
 
-    public int max(long sales) {
+    public long max(long sales) {
         long max = -1;
         for (long sale : this.sales) {
             if (sale > max) {
