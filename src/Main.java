@@ -3,11 +3,16 @@ public class Main {
     public static void main(String[] args) {
 
         SalesManager salesManager = new SalesManager();
+<<<<<<< HEAD
         int maxSale = salesManager.max();
         int minSale = salesManager.min();
         int average = salesManager.average();
         System.out.println(maxSale);
         System.out.println(minSale);
         System.out.println(average);
+=======
+        int maxSale = salesManager.max(400);
+        System.out.println(maxSale);
+>>>>>>> master
     }
 }
